@@ -5,7 +5,7 @@ document.getElementById('computeForm').addEventListener('submit', async function
     const response = await fetch('https://ukkjifvu2b.execute-api.eu-central-1.amazonaws.com/Prod/compute', {
         method: 'POST',
         headers: {
-            'Content-Type': 'application/json',
+            'Content-Type': 'application/json'
         },
         body: JSON.stringify({ a, b })
     });
