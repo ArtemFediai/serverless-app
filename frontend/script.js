@@ -6,7 +6,6 @@ document.getElementById('computeForm').addEventListener('submit', async function
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
-            'x-api-key': 'YOUR_API_KEY' // Replace with your actual API key if authentication is enabled
         },
         body: JSON.stringify({ a, b })
     });
